@@ -23,6 +23,8 @@ app.get('/', async (req, res) => {
   res.send('Api is live.');
 });
 
+// Getting auth data for our app (accessToken), Refresh Token etc
+
 app.post('/login', async (req, res) => {
   const code = req.body.code;
   try {
