@@ -1,0 +1,38 @@
+.plapylist-control-scroll {
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.playlist-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.playlist-wrapper-top-box {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.playlists-title-icon {
+  margin-right: 5px;
+  font-size: 1rem;
+  position: relative;
+  top: -2px;
+}
+
+.playlists-title {
+  margin: 40px 0;
+  font-size: 1.4rem;
+  text-align: left;
+  width: 80%;
+}
+
+.select-playlist-message {
+  margin-bottom: 20px;
+  width: 80%;
+  text-align: left;
+}

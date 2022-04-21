@@ -1,0 +1,67 @@
+.main-app-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.player-wrapper {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.player-message {
+  color: white;
+}
+
+.player-title {
+  margin: 40px 0;
+  font-size: 1.4rem;
+}
+.player-top-box {
+  display: flex;
+  width: 520px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.player-add-button {
+  width: 190px;
+  height: 53px;
+  border: none;
+  cursor: pointer;
+}
+
+.player-cover {
+  width: 420px;
+  border-radius: 2px;
+}
+
+.player-box {
+  width: fit-content;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.player-time-grid {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.player-title-song {
+  margin-bottom: 0;
+  max-width: 340px;
+  font-size: 1.4rem;
+}
+
+.player-artist {
+  width: 100%;
+  font-weight: 300;
+}
