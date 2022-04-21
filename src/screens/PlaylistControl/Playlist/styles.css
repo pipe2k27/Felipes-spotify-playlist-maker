@@ -47,6 +47,12 @@
   font-weight: 300;
 }
 
+.playlist-amount {
+  font-size: 0.8rem;
+  margin-left: 4px;
+  font-weight: 300;
+}
+
 .playlist-title {
   font-weight: bold;
 }
@@ -60,6 +66,11 @@
 .playlist-chevron {
   padding: 8px;
   border-radius: 19px;
+  transition: all 0.2s;
+}
+
+.chevron-open-false {
+  transform: rotate(-90deg);
 }
 
 .playlist-delete {

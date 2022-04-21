@@ -6,6 +6,8 @@ Did not have much time to add documentation or Clean the code up, but applicatio
 
 Some Rework could be done to authentication, and add some Database to persist data insted of using localstorage, or redux state management
 
+Some things are hard coded, tokens are exposed in env
+
 But for the purpose of this test we will use the very basics
 
 ### `npm start`

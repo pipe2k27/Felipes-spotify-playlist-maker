@@ -31,7 +31,7 @@ const Song: React.FC<PropTypes> = ({
       </div>
       <div className='song-box-2'>
         <FontAwesomeIcon
-          className='playlist-icon c-blue'
+          className='playlist-icon c-blue icon-remove'
           icon={faTimes}
           onClick={() => removeSongFromPlaylist(songIndex, playlistId)}
         />

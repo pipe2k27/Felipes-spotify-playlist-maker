@@ -49,3 +49,13 @@
   position: relative;
   top: 1px;
 }
+
+.icon-remove {
+  color: rgb(255, 126, 126);
+  transition: all 0.2s;
+}
+
+.icon-remove:hover {
+  color: red;
+  transform: rotate(90deg) scale(1.05);
+}

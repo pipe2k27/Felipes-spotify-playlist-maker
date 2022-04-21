@@ -60,7 +60,14 @@ const Playlist: React.FC<PropTypes> = ({
             }
           />
           <span className='playlist-title'>
-            {title} <span className='playlist-by'> / By Felipe Perarnau</span>
+            {title} <span className='playlist-by'> / By Felipe Perarnau</span>{' '}
+            <span className='playlist-amount'>
+              (
+              {playlistSongs && playlistSongs.length > 0
+                ? playlistSongs.length
+                : 0}
+              )
+            </span>
           </span>
         </div>
         {!addToPlaylistView && (
@@ -71,7 +78,7 @@ const Playlist: React.FC<PropTypes> = ({
               onClick={() => deletePlaylist(id)}
             />
             <FontAwesomeIcon
-              className='playlist-chevron c-green'
+              className={`playlist-chevron chevron-open-${isOpen} c-green`}
               icon={faChevronDown}
             />
           </div>
